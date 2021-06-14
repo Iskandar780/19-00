@@ -66,3 +66,37 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+.footer{
+    padding: 40px 0;
+    background: black;
+}
+.footer__tittle{
+font-weight: bold;
+font-size: 50px;
+line-height: 59px;
+color: red;
+}
+.number{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: red;
+    text-decoration: none;
+}
+.email{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: red;
+    text-decoration: none;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
