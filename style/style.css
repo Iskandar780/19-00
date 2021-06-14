@@ -69,6 +69,7 @@ body {
     line-height: 24px;
 }
 
+
 .home__title {
     text-transform: uppercase;
     font-size: 40px;
@@ -119,7 +120,30 @@ body {
 }
 .home__link:hover{
     transform: scale(1.2);
+  
+}
+.PROJECTTS {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
 
+.project__text {
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.PROJECTTS:hover {
+    background: darkred;
+}
+
+.project-text2 {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    justify-content: space-between;
 .footer{
     padding: 40px 0;
     background: black;
@@ -153,5 +177,6 @@ color: red;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+
 
 }
