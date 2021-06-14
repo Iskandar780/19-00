@@ -53,16 +53,42 @@ body {
     justify-content: center;
     flex-grow: 1;
 }
-.header__title{
+
+.header__title {
     text-transform: uppercase;
     color: aquamarine;
     margin-bottom: 15px;
     font-size: 50px;
 }
-.subtitle{
+
+.subtitle {
     width: 450px;
     color: chartreuse;
     text-align: center;
     font-size: 14px;
     line-height: 24px;
+}
+
+.PROJECTTS {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.project__text {
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.PROJECTTS:hover {
+    background: darkred;
+}
+
+.project-text2 {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    justify-content: space-between;
 }
