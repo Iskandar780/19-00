@@ -66,3 +66,23 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+.contact__title{
+    display: flex;
+    justify-content: space-between;
+}
+.contact__link{
+    display: flex;
+    justify-content: center;
+}
+.container__contact{
+    background: blueviolet;
+    max-width: 1200px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.contact__title{
+justify-content: center;
+    width: 100%;
+
+}
